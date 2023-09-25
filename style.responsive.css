@@ -54,8 +54,8 @@
     .card {
       width: 100%; /* Cards ocupam 100% da largura da tela */
       margin: 10px 0; /* Adicione margens entre os cards conforme necessário */
-      margin-top: 5px; /* Define a margem externa em cima do card */
-      margin-bottom: 5px; /* Define a margem externa abaixo do card */
+      margin-top: 30px; /* Define a margem externa em cima do card */
+      margin-bottom: 30px; /* Define a margem externa abaixo do card */
     }
   }
 
