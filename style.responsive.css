@@ -3,6 +3,7 @@
       display: grid;  /* Alinha os conteúdos na vertical */
       grid-template-columns: 1fr; /* Define que irão ocupar uma coluna */
       max-width: 100%; /* Se adapta 100% ao tamanho da tela */
+      height: auto; /*Define a altura como automática */
   }
   
     .navbar-nav {
@@ -12,7 +13,7 @@
     .navbar-brand img {
       max-width: 120px; /* Define tamanho da logo do menu */
     }
-  
+
     #first-notice,
     #second-notice,
     #third-notice
@@ -64,8 +65,8 @@
         display: grid; /* Alinha os conteúdos na vertical */
         grid-template-columns: 1fr; /* Define que irão ocupar uma coluna */
         max-width: 100%; /* Se adapta 100% ao tamanho da tela */
+        height: auto; /*Define a altura como automática */
     }
-
 
     #first-notice,
     #second-notice,
@@ -101,3 +102,5 @@
         margin-bottom: 20px; /* Define a margem externa abaixo do card */
     }
   }
+  
+  

@@ -6,7 +6,8 @@ body{
     display: grid; /* Alinha os conteúdos na vertical */
     grid-template-columns: 1fr; /* Define que irão ocupar uma coluna */
     max-width: 100%; /* Se adapta 100% ao tamanho da tela */
-} 
+    height: auto; /*Define a altura como automática */
+}
 
 .navbar {
     left: 0; /* Coloca o menu à esquerda da página */
@@ -19,6 +20,7 @@ body{
 .navbar-brand img{
     width: 40px; /* Define o tamanho da imagem */
 }
+
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.7); /* Define uma faixa atrás do texto dos slides */

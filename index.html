@@ -15,7 +15,7 @@
     <title>Arsenal</title> <!-- Título da página -->
 </head>
 <body>
-  <div id="container-main">  <!-- Container da página -->
+  
     <!-- Inicio do Menu -->
      <nav class="navbar position-fixed navbar-expand-lg bg-white";> <!-- Estilização do menu com bootstrap -->
       <div class="container-fluid"> <!-- Define a classe CSS "container-fluid", que cria um contêiner de largura total para o conteúdo -->
@@ -42,9 +42,9 @@
     </nav>
       <!-- Fim do Menu -->
       
-
+      <main id="container-main"> <!-- Container principal que recebe os conteúdos -->
       <!-- Inicio do Carousel -->
-      <div>
+      <div id="carousel">
         <section class="carousel-section"> <!-- Define a seção carousel -->
           <div id="carouselExampleCaptions" class="carousel slide"> <!-- Define o container principal do carousel -->
             <div class="carousel-indicators"> <!-- Define uma div que contém botões indicadores que são usados para navegar entre os slides do carrossel -->
@@ -146,7 +146,6 @@
         <section class="store-section"> <!-- Seção que recebe a imagem do uniforme da temporada no ínicio da loja -->
         <img src="img/kit-home.png" alt=""> <!-- Imagem do unirfome -->
       </section>
-      </div>
 
       <div class="kit"> <!-- Container principal que agrupa os cards de produtos -->
         <div class="card" style="width: 18rem;"> <!-- Estilização do tamanho do card com bootstrap -->
@@ -179,6 +178,8 @@
           </div>
         </div>
       </div>
+    </div>
+    
 
       <!-- Fim Loja -->
 
@@ -219,7 +220,7 @@
         </div>
       </footer>
       <!-- Fim do Footer -->
-  </main>
+</main>
 
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> <!-- Importa o arquivo JavaScript do Popper.js, que é uma biblioteca utilizada pelo Bootstrap para lidar com posicionamento e dimensionamento de elementos -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> <!-- Importa o arquivo JavaScript do Bootstrap, que é a biblioteca principal do Bootstrap e fornece funcionalidades interativas e componentes prontos para uso, como carrosséis, modais, menus de navegação e muito mais. -->
