@@ -1,0 +1,103 @@
+@media screen and (min-width: 350px) {  /* Deixa página responsiva para telas de no mínimo 350px */
+    body{
+      display: grid;  /* Alinha os conteúdos na vertical */
+      grid-template-columns: 1fr; /* Define que irão ocupar uma coluna */
+      max-width: 100%; /* Se adapta 100% ao tamanho da tela */
+  }
+  
+    .navbar-nav {
+      text-align: center; /* Alinha o texto ao centro */
+    }
+  
+    .navbar-brand img {
+      max-width: 120px; /* Define tamanho da logo do menu */
+    }
+  
+    #first-notice,
+    #second-notice,
+    #third-notice
+    {
+      display: flex; /* Alinha os conteúdos na horizontal */
+      flex-direction: column; /* Define a direção em coluna */
+      padding: 30px; /* Define margem interna */
+      justify-content: center; /* Alinha o conteúdo ao centro */
+      align-items: center; /* Alinha o conteúdo ao centro */
+      text-align: center; /* Alinha o texto ao centro */
+    }
+  
+    .first-notice-img img,
+    .second-notice-img img,
+    .third-notice-img img
+    {
+      max-width: 100vh; /* Se adapta 100vh ao tamanho da tela */
+      height: auto; /* Tamanho da imagem automático */
+    }
+  
+    .first-notice-text h1,
+    .second-notice-text h1,
+    .third-notice-text h1
+    {
+      font-size: 30px; /* Define tamanho do título */
+      margin-top: 30px; /* Define a margem externa em cima do título */
+      margin-bottom: 15px; /* Define a margem externa abaixo do título */
+    }
+
+    .first-notice-text p,
+    .second-notice-text p,
+    .third-notice-text p
+     {
+      font-size: 20px; /* Define tamanho da descrição */
+    }
+  
+  
+    .card {
+      width: 100%; /* Cards ocupam 100% da largura da tela */
+      margin: 10px 0; /* Adicione margens entre os cards conforme necessário */
+      margin-top: 5px; /* Define a margem externa em cima do card */
+      margin-bottom: 5px; /* Define a margem externa abaixo do card */
+    }
+  }
+
+  @media screen and (min-width: 1200px){ /* Deixa página responsiva para telas de no mínimo 1200px */
+
+    body{
+        display: grid; /* Alinha os conteúdos na vertical */
+        grid-template-columns: 1fr; /* Define que irão ocupar uma coluna */
+        max-width: 100%; /* Se adapta 100% ao tamanho da tela */
+    }
+
+
+    #first-notice,
+    #second-notice,
+    #third-notice
+    {
+        display: grid; /* Alinha os conteúdos na vertical */
+        grid-template-columns: 1fr 1fr; /* Define que irão ocupar duas colunas */
+        text-align: center; /* Alinha texto ao centro */
+        margin-top: 30px; /* Define a margem externa em cima */
+        margin-bottom: 30px; /* Define a margem externa em baixo */
+    }
+    
+    .first-notice-text h1,
+    .second-notice-text h1,
+    .third-notice-text h1
+    {
+        font-size: 30px; /* Define tamanho do título */
+        margin: 0; /* Define a margem externa inicial */
+        margin-top: 25px; /* Define a margem externa em cima */
+        margin-bottom: 25px; /* Define a margem externa em baixo */
+    }
+
+    .first-notice-text p,
+    .second-notice-text p,
+    .third-notice-text p
+    {
+        font-size: 16px; /* Define tamanho da descrição */
+    }
+    
+    .card{
+        margin-top: 20px; /* Define a margem externa em cima do card */
+        margin-right: 20px; /* Define a margem externa a direita do card */
+        margin-bottom: 20px; /* Define a margem externa abaixo do card */
+    }
+  }

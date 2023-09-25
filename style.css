@@ -1,0 +1,146 @@
+*{
+    font-family: 'Roboto';  /* Define a fonte universal como Roboto */
+}
+
+body{
+    display: grid; /* Alinha os conteúdos na vertical */
+    grid-template-columns: 1fr; /* Define que irão ocupar uma coluna */
+    max-width: 100%; /* Se adapta 100% ao tamanho da tela */
+} 
+
+.navbar {
+    left: 0; /* Coloca o menu à esquerda da página */
+    right: 0; /* Coloca o menu à direita da página */
+    z-index: 1000; /* Define a ordem de empilhamento, maior que outros elementos */
+    background-color: #fff; /* Cor de fundo do menu */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para o menu */
+  }
+
+.navbar-brand img{
+    width: 40px; /* Define o tamanho da imagem */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Define uma faixa atrás do texto dos slides */
+  }
+
+  .carousel-caption a{
+    color: white; /* Cor do texto dos slides */
+    text-decoration: none; /* Texto sem decoração */
+  }
+
+.carousel-section{
+    margin: 30px; /* Define a margem externa da seção */
+}
+
+.carousel-section img{
+    margin-top: 70px; /* Define a margem externa em cima da seção */
+    border-radius: 5px; /* Arredonda as bordas */
+}
+
+.link-highlights{
+    color: #212529; /* Cor do link da seção de highlights em notícias */
+    text-decoration: none; /* Remove toda a decoração do link */
+    font-weight: bold; /* Deixa a fonte em negrito */
+}
+
+.link-highlights:hover{
+    color: #970a17; /* Muda a cor do link ao passar o mouse em cima */
+}
+
+#first-notice
+#second-notice,
+#third-notice{
+    display: grid; /* Alinha os conteúdos na vertical */
+    grid-template-columns: 1fr 1fr; /* Define que irão ocupar duas colunas */
+    text-align: center; /* Alinha o texto ao centro */
+    padding-top: 25px; /* Define a margem interna */
+}
+
+.first-notice-img img,
+.second-notice-img img,
+.third-notice-img img{
+    width: 670px; /* Define o tamanho da imagem */
+    margin-right: 60px; /* Define a margem externa da direita */
+    margin-left: 30px; /* Define a margem externa da esquerda */
+    border-radius: 5px; /* Arredonda as bordas */
+}
+.first-notice-text,
+.second-notice-text,
+.third-notice-text{
+    margin-right: 30px; /* Define a margem externa da direita */
+}
+
+.first-notice-text h1,
+.second-notice-text h1,
+.third-notice-text h1{
+    font-size: 30px; /* Define o tamanho da fonte do título */
+}
+
+#store header img{
+    width: 40px; /* Define o tamanho da logo */
+    margin-right: 10px; /* Define a margem externa da direita */
+}
+header{
+    display: flex; /* Alinha os conteúdos na horizontal */
+    flex-direction: row; /* Direciona os conteúdos em linha */
+    align-items: center; /* Alinha ao centro */
+    justify-content: center; /* Alinha ao centro */
+    background-color: #970a17; /* Define a cor de fundo */
+    color: white; /* Define a cor da fonte */
+    padding: 20px; /* Define a margem interna */
+}
+
+#store img{
+    width: 100%; /* Define o tamanho da imagem para se adaptar 100% a tela */
+}
+
+.store-section{
+    width: 100%; /* Define o tamanho da seção para se adaptar 100% a tela */
+}
+
+.kit{
+    display: flex; /* Alinha os conteúdos na horizontal */
+    flex-direction: row; /* Direciona os conteúdos em linha */
+    justify-content: center; /* Alinha ao centro */
+}
+
+.card{
+    margin-top: 20px; /* Define a margem externa de cima */
+    margin-right: 20px; /* Define a margem externa da direita */
+    margin-bottom: 20px; /* Define a margem externa de baixo */
+}
+
+footer{
+    background-color: #970a17; /* Define a cor de fundo */
+    color: white; /* Define a cor da fonte */
+    
+}
+
+.container-footer{
+    display: grid; /* Alinha os conteúdos na vertical */
+    grid-template-columns: 1fr 1fr 1fr; /* Define que irão ocupar três colunas */
+    text-align: center; /* Alinha o texto ao centro */
+    padding-top: 25px; /* Define a margem interna de cima */
+}
+
+.container-footer .list li{
+    list-style: none; /* Retira os estilos da lista */
+    color: white; /* Define a cor da fonte */
+}
+
+.container-footer .list li a{
+    color: white; /* Define a cor da fonte */
+    text-decoration: none; /* Retira a decoração do texto */
+    margin-right: 32px; /* Define a margem externa da direita */
+}
+
+
+
+.copyright{
+    text-align: center; /* Alinha o texto ao centro */
+    padding-bottom: 5px; /* Define a margem interna de baixo */
+}
+
+
+
